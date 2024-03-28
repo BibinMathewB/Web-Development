@@ -1,0 +1,59 @@
+* {   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --nutmeg: hsl(15, 53%, 24%);
+    --dark-raspberry: hsl(332, 51%, 32%)
+    --white: hsl(99, 3%, 100%);
+    --rose-white: hsl(330, 100 %, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%)
+}
+
+body {
+    background-color: var(--eggshell);
+    color: var(--wenge-brown);
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.4;
+    display: grid;
+    place-content: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400; 
+}
+    
+
+h1 {
+    color: var(--dark-charcoal);
+    font-size: 2.8rem;
+}
+
+h2 {
+    color: var(--nutmeg);
+    margin-bottom: 1rem;
+}
+
+.recipe-step {
+    margin: 1rem 0;
+}
+
+.nutrition-step {
+    margin-top: 1rem;
+}
+
+
+
+
+
